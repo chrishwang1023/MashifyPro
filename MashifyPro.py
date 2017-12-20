@@ -1,6 +1,5 @@
 # Christopher Hwang, cjhwang
-# 15-112: Section G
-# Term Project: Mashify Pro
+# Mashify Pro
 
 import pyaudio
 import pydub
