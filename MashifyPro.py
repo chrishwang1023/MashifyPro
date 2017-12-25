@@ -1,4 +1,3 @@
-# Christopher Hwang, cjhwang
 # Mashify Pro
 
 import pyaudio
