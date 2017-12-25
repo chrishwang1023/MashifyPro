@@ -1,6 +1,3 @@
-Project Readme File
-
-Christopher Hwang
 
 Mashify Pro is a program that emulates a dj pad. A dj pad is used to remix, mashup, and produce songs. An example of a dj pad can be found here: https://www.youtube.com/watch?v=5y4bZaLMsIQ. Desired sounds can be stored into a box on the board and when pressed, the sounds are looped. To the functions available to the actual dj board, I added a recording function that allows users to create actual recordings of their voices to make an acoustic remix of songs that would like. Additionally, users can create own compositions using recordings of their voices or instruments. 
 
