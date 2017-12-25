@@ -519,7 +519,6 @@ def timerFired(data):
 def mouseMotion(event,data):
     pass
 
-# Taken from 15-112 notes online
 def getCell(x, y, data): # design of the board 
     if (not pointInGrid(x, y, data)): return (-1, -1)
     gridWidth  = 500
@@ -533,7 +532,6 @@ def getCell(x, y, data): # design of the board
     col = min(data.cols-1, max(0, col))
     return (row, col)
 
-# Taken from 15-112 notes online
 def getCellBounds(row, col, data):
     gridWidth  = 500
     gridHeight = 500
@@ -545,7 +543,6 @@ def getCellBounds(row, col, data):
     y1 = 95 + (row+1) * rowHeight
     return (x0, y0, x1, y1)
 
-# Taken from 15-112 notes online
 def pointInGrid(x, y, data):
     # return True if (x, y) is inside the grid defined by data.
     return ((255 <= x <= 755) and (95 <= y <= 595))
